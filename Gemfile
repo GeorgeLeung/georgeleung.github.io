@@ -1,6 +1,7 @@
-source 'https://rubygems.org'
-<<<<<<< Updated upstream
-gem 'github-pages'
-=======
-gem 'georgeleung.github.io'
->>>>>>> Stashed changes
+# Skinny Bones Gemfile
+source "https://rubygems.org"
+
+gem "jekyll", "~> 3.0"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem "octopress", "~> 3.0"
