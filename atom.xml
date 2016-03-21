@@ -7,7 +7,7 @@
   <subtitle>A personal page</subtitle>
   <link href="http://georgeleung.github.io/atom.xml" rel="self"/>
   <link href="http://georgeleung.github.io/" rel="alternate" type="text/html"/>
-  <updated>2016-03-21T02:42:39-04:00</updated>
+  <updated>2016-03-21T02:43:47-04:00</updated>
   <id>http://georgeleung.github.io/</id>
   <author>
     <name></name>
@@ -49,7 +49,7 @@
       
       
 &lt;hr /&gt;
-&lt;p&gt;layout: post
+&lt;p&gt;layout: article
 title: “Blog 1”
 categories: articles&lt;/p&gt;
 
