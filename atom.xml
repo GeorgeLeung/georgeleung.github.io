@@ -7,7 +7,7 @@
   <subtitle>A personal page</subtitle>
   <link href="http://georgeleung.github.io/atom.xml" rel="self"/>
   <link href="http://georgeleung.github.io/" rel="alternate" type="text/html"/>
-  <updated>2016-03-21T03:03:05-04:00</updated>
+  <updated>2016-03-21T03:10:32-04:00</updated>
   <id>http://georgeleung.github.io/</id>
   <author>
     <name>George Leung</name>
@@ -51,6 +51,14 @@
 
 &lt;p&gt;This a testing Blog.&lt;/p&gt;
 
+&lt;p&gt;test 1&lt;/p&gt;
+
+&lt;p&gt;image:
+  teaser: fri_wand.jpg
+  feature: 002.jpg
+  credit: Michael Rose #name of the person or site you want to credit
+  creditlink: http://mademistakes.com #url to their site or licensing&lt;/p&gt;
+
 
     </content>
   </entry>
@@ -71,8 +79,10 @@
 
 &lt;p&gt;This is blog 2.&lt;/p&gt;
 
+&lt;p&gt;Test123 autowatch&lt;/p&gt;
+
 &lt;p&gt;Image 1:
-&lt;img src=&quot;/image/002.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/002.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
     </content>
   </entry>
