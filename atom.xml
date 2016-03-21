@@ -7,7 +7,7 @@
   <subtitle>A personal page</subtitle>
   <link href="http://georgeleung.github.io/atom.xml" rel="self"/>
   <link href="http://georgeleung.github.io/" rel="alternate" type="text/html"/>
-  <updated>2016-03-21T02:43:47-04:00</updated>
+  <updated>2016-03-21T02:46:30-04:00</updated>
   <id>http://georgeleung.github.io/</id>
   <author>
     <name></name>
@@ -36,10 +36,10 @@
   </entry>
   
   <entry>
-    <title>New Post</title>
-    <link href="http://georgeleung.github.io/new-post/"/>
+    <title>Blog 1</title>
+    <link href="http://georgeleung.github.io/articles/new-post/"/>
     <updated>2016-03-20T00:00:00-04:00</updated>
-    <id>http://georgeleung.github.io/new-post</id>
+    <id>http://georgeleung.github.io/articles/new-post</id>
     <author>
       <name></name>
       <uri>http://georgeleung.github.io/</uri>
@@ -47,20 +47,7 @@
     </author>
     <content type="html">
       
-      
-&lt;hr /&gt;
-&lt;p&gt;layout: article
-title: “Blog 1”
-categories: articles&lt;/p&gt;
-
-&lt;p&gt;image:
-  teaser: fri_wand.jpg
-  feature: 002.jpg
-  credit: Michael Rose #name of the person or site you want to credit
-  creditlink: http://mademistakes.com #url to their site or licensing&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;#### Blog 1&lt;/p&gt;
+      &lt;h4 id=&quot;blog-1&quot;&gt;Blog 1&lt;/h4&gt;
 
 &lt;p&gt;This a testing Blog.&lt;/p&gt;
 
