@@ -7,7 +7,7 @@
   <subtitle>A personal page</subtitle>
   <link href="http://georgeleung.github.io/atom.xml" rel="self"/>
   <link href="http://georgeleung.github.io/" rel="alternate" type="text/html"/>
-  <updated>2016-03-21T01:53:22-04:00</updated>
+  <updated>2016-03-21T02:29:03-04:00</updated>
   <id>http://georgeleung.github.io/</id>
   <author>
     <name></name>
@@ -15,6 +15,25 @@
     
   </author>
 
+  
+  <entry>
+    <title>Cv</title>
+    <link href="http://georgeleung.github.io/CV/"/>
+    <updated>2016-03-21T00:00:00-04:00</updated>
+    <id>http://georgeleung.github.io/CV</id>
+    <author>
+      <name></name>
+      <uri>http://georgeleung.github.io/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;h3 id=&quot;this-is-my-cv&quot;&gt;This is my CV&lt;/h3&gt;
+
+&lt;p&gt;Hello world!&lt;/p&gt;
+
+    </content>
+  </entry>
   
   <entry>
     <title>New Post</title>
@@ -44,6 +63,25 @@ image:
 
 &lt;p&gt;This a testing Blog.&lt;/p&gt;
 
+
+    </content>
+  </entry>
+  
+  <entry>
+    <title>Sample Post Style Guide</title>
+    <link href="http://georgeleung.github.io/articles/blog-2/"/>
+    <updated>2016-03-20T00:00:00-04:00</updated>
+    <id>http://georgeleung.github.io/articles/blog-2</id>
+    <author>
+      <name></name>
+      <uri>http://georgeleung.github.io/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;h4 id=&quot;blog-2&quot;&gt;Blog 2&lt;/h4&gt;
+
+&lt;p&gt;This is blog 2.&lt;/p&gt;
 
     </content>
   </entry>
