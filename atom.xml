@@ -7,7 +7,7 @@
   <subtitle>A personal page</subtitle>
   <link href="http://georgeleung.github.io/atom.xml" rel="self"/>
   <link href="http://georgeleung.github.io/" rel="alternate" type="text/html"/>
-  <updated>2016-03-20T13:55:53-04:00</updated>
+  <updated>2016-03-21T01:46:16-04:00</updated>
   <id>http://georgeleung.github.io/</id>
   <author>
     <name></name>
@@ -28,9 +28,20 @@
     </author>
     <content type="html">
       
-      &lt;h4 id=&quot;blog-1&quot;&gt;Blog 1&lt;/h4&gt;
+      
+&lt;hr /&gt;
+&lt;p&gt;layout: post&lt;/p&gt;
+
+&lt;h4 id=&quot;blog-1&quot;&gt;Blog 1&lt;/h4&gt;
 
 &lt;p&gt;This a testing Blog.&lt;/p&gt;
+
+&lt;p&gt;image:
+  teaser: fri_wand.jpg
+  feature: 002.jpg
+  credit: Michael Rose #name of the person or site you want to credit
+  creditlink: http://mademistakes.com #url to their site or licensing
+—&lt;/p&gt;
 
     </content>
   </entry>
