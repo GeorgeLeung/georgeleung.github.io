@@ -916,6 +916,31 @@
 		display: block;
 		padding-bottom: 0.50em;
 	}
+	
+/*********************************************************************************/
+/* Other                                                                          */
+/*********************************************************************************/
+
+	#other
+	{
+		position: relative;
+		background: #fff;
+	}
+	
+	.homepage #content
+	{
+		text-align: center;
+	}
+	
+	.homepage #content header h2
+	{
+	}
+
+	#sidebar h2
+	{
+		display: block;
+		padding-bottom: 0.50em;
+	}
 
 /*********************************************************************************/
 /* Footer                                                                        */
