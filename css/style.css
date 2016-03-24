@@ -29,12 +29,14 @@
 		/*color: #777;*/
 	}
 
-	para1{
-		word-wrap: break-word;
-   		width: 100px;
-   		margin-bottom: 1em;
+	p2{
+		 word-wrap: break-word; 
+		 width:500px;
+		 margin-bottom: 1em;
+		 text-align: center;
 	}
 	
+
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 300;
