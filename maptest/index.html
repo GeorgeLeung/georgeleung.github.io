@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Data Layer: Event Handling</title>
+    <title>test geojson</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <style>
@@ -35,12 +35,13 @@
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: {lat: -28, lng: 137}
+          zoom: 6,
+          center: {lat: 33.4, lng: -86.7}
         });
 
         // Load GeoJSON.
-        map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
+        // map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
+		map.data.loadGeoJson('http://georgeleung.github.io/2.json');
 
         // Add some style.
         map.data.setStyle(function(feature) {
@@ -50,11 +51,6 @@
           });
         });
 
-        // Set mouseover event for each feature.
-        map.data.addListener('mouseover', function(event) {
-          document.getElementById('info-box').textContent =
-              event.feature.getProperty('letter');
-        });
       }
     </script>
     <script async defer
