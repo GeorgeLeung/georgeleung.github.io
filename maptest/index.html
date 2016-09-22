@@ -56,7 +56,7 @@
    // Set mouseover event for each feature.
         map.data.addListener('mouseover', function(event) {
           document.getElementById('info-box').innerHTML = 'Population: '+
-              event.feature.getProperty('B01003_001E')+ '<br />' + 'Income : ' + event.feature.getProperty('B19301_001E');
+              event.feature.getProperty('B01003_001E')+ '<br />' + 'Income : $' + event.feature.getProperty('B19301_001E');
         });
       }
     </script>
