@@ -20,7 +20,7 @@
         background-color: white;
         border: 1px solid black;
         bottom: 30px;
-        height: 20px;
+        height: 40px;
         padding: 10px;
         position: absolute;
         left: 30px;
@@ -39,10 +39,12 @@
           center: {lat: 33.4, lng: -86.7}
         });
 
+        bounds  = new google.maps.LatLngBounds();
+
         // Load GeoJSON.
         // map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
-		map.data.loadGeoJson('http://georgeleung.github.io/maptest/map.geojson');
-		map.data.loadGeoJson('http://georgeleung.github.io/maptest/dent.geojson');
+  map.data.loadGeoJson('http://georgeleung.github.io/maptest/map.geojson');
+  map.data.loadGeoJson('http://georgeleung.github.io/maptest/dent.geojson');
 
         // Add some style.
         map.data.setStyle(function(feature) {
@@ -52,6 +54,11 @@
           });
         });
 
+   // Set mouseover event for each feature.
+        map.data.addListener('mouseover', function(event) {
+          document.getElementById('info-box').innerHTML = 'Population: '+
+              event.feature.getProperty('B01003_001E')+ '<br />' + 'Income : ' + event.feature.getProperty('B19301_001E');
+        });
       }
     </script>
     <script async defer
