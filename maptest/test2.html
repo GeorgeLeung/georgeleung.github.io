@@ -6,11 +6,22 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='custom.css' rel='stylesheet' type='text/css'>
+        <style>
+        #info-box {
+        background-color: white;
+        border: 1px solid black;
+        bottom: 30px;
+        height: 60px;
+        padding: 10px;
+        position: absolute;
+        left: 30px;
+      	}
+        </style>
     </head>
     <body>
-
+		
         <div class="container">
-
+			
             <div class="row">
 
                 <div class="col-lg-8 col-lg-offset-2">
@@ -29,8 +40,8 @@
             
             <div class="row">
             	<div class="col-lg-8 col-lg-offset-2">
-            		<div id="map" style="height: 500px">
-            		</div>
+            		<div id="map" style="height: 500px"></div>
+            		<div id="info-box">?</div>
             	</div>
             </div>
 
@@ -40,10 +51,12 @@
         <script>
 
       var map;
+      var latc = 34.4;
+      var lngc = -86.7;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 9,
-          center: {lat: 33.4, lng: -86.7}
+          center: {lat: latc, lng: lngc}
         });
 	  
 
