@@ -45,7 +45,7 @@
           zoom: 9,
           center: {lat: 33.4, lng: -86.7}
         });
-	  }
+	  
 
         // Load GeoJSON.
         // map.data.loadGeoJson('https://storage.googleapis.com/maps-devrel/google.json');
@@ -65,7 +65,7 @@
           document.getElementById('info-box').innerHTML = 'Population: '+
               event.feature.getProperty('B01003_001E')+ '<br />' + 'Income : $' + event.feature.getProperty('B19301_001E');
         });
-      
+      	}
     	</script>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
